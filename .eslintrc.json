@@ -1,0 +1,22 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "airbnb-base",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "no-console":"off",
+        "quotes":[
+            "warn",
+            "double"
+        ],
+        "eol-last": "warn",
+        "multiline" : "true"
+
+    }
+}
